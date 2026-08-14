@@ -1,0 +1,31 @@
+﻿2026-08-14T14:46:45.5730508Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:45.5732514Z with:
+2026-08-14T14:46:45.5745799Z   github-token: ***
+2026-08-14T14:46:45.5750671Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/handle_detection_runs.cjs');
+await main();
+
+2026-08-14T14:46:45.5756650Z   debug: false
+2026-08-14T14:46:45.5757780Z   user-agent: actions/github-script
+2026-08-14T14:46:45.5759117Z   result-encoding: json
+2026-08-14T14:46:45.5760244Z   retries: 0
+2026-08-14T14:46:45.5781515Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:45.5784223Z env:
+2026-08-14T14:46:45.5786040Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:45.5787506Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:45.5789781Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:45.5791452Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:45.5792877Z   GH_AW_AGENT_OUTPUT: 
+2026-08-14T14:46:45.5794782Z   GH_AW_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:45.5797725Z   GH_AW_WORKFLOW_SOURCE: githubnext/agentics/workflows/grumpy-reviewer.md@42c2ab5b4e4c9273534c39259b2e0df7f20f07e9
+2026-08-14T14:46:45.5802202Z   GH_AW_WORKFLOW_SOURCE_URL: https://github.com/githubnext/agentics/blob/42c2ab5b4e4c9273534c39259b2e0df7f20f07e9/workflows/grumpy-reviewer.md
+2026-08-14T14:46:45.5806515Z   GH_AW_RUN_URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904
+2026-08-14T14:46:45.5809189Z   GH_AW_DETECTION_CONCLUSION: 
+2026-08-14T14:46:45.5810419Z   GH_AW_DETECTION_REASON: 
+2026-08-14T14:46:45.5811539Z ##[endgroup]
+2026-08-14T14:46:45.7353819Z Detection conclusion: 
+2026-08-14T14:46:45.7359522Z Detection reason: 
+2026-08-14T14:46:45.7364438Z Workflow name: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:45.7368773Z Run URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904
+2026-08-14T14:46:45.7375799Z Detection conclusion is "", no issue comment needed

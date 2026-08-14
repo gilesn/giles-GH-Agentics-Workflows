@@ -1,0 +1,29 @@
+﻿2026-08-14T14:46:38.3162149Z ##[group]Run github/gh-aw-actions/setup@6aab9e5b5c91c615506061f09bedd81a23babe3c
+2026-08-14T14:46:38.3163815Z with:
+2026-08-14T14:46:38.3164356Z   destination: /home/runner/work/_temp/gh-aw/actions
+2026-08-14T14:46:38.3164980Z   job-name: conclusion
+2026-08-14T14:46:38.3165450Z   trace-id: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:38.3166013Z   parent-span-id: b97a74d017b1b730
+2026-08-14T14:46:38.3166537Z   safe-output-artifact-client: false
+2026-08-14T14:46:38.3167272Z env:
+2026-08-14T14:46:38.3167670Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:38.3168206Z   GH_AW_SETUP_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:38.3169276Z   GH_AW_CURRENT_WORKFLOW_REF: gilesn/giles-GH-Agentics-Workflows/.github/workflows/grumpy-reviewer.lock.yml@refs/heads/main
+2026-08-14T14:46:38.3170436Z   GH_AW_INFO_VERSION: 1.0.79
+2026-08-14T14:46:38.3170963Z   GH_AW_INFO_AWF_VERSION: v0.27.44
+2026-08-14T14:46:38.3171483Z   GH_AW_INFO_BODY_MODIFIED: false
+2026-08-14T14:46:38.3171984Z   GH_AW_INFO_ENGINE_ID: copilot
+2026-08-14T14:46:38.3172505Z ##[endgroup]
+2026-08-14T14:46:40.3527844Z Successfully copied 462 files to /home/runner/work/_temp/gh-aw/actions
+2026-08-14T14:46:40.6450390Z [info] [otlp] INPUT_TRACE_ID=81eeb75850d6f8254b6b51e50e09b2da (will reuse activation trace)
+2026-08-14T14:46:40.6451801Z Successfully copied 26 mcp-scripts files to /home/runner/work/_temp/gh-aw/mcp-scripts
+2026-08-14T14:46:40.6454805Z Successfully copied 85 safe-outputs files to /home/runner/work/_temp/gh-aw/safeoutputs
+2026-08-14T14:46:40.6537910Z [info] [otlp] INPUT_PARENT_SPAN_ID=b97a74d017b1b730 (will parent setup span)
+2026-08-14T14:46:40.6544241Z [info] [otlp] GH_AW_OTLP_ENDPOINTS not set, skipping setup span
+2026-08-14T14:46:40.6559576Z [info] [otlp] resolved trace-id=81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:40.6560614Z [info] [otlp] trace-id=81eeb75850d6f8254b6b51e50e09b2da written to GITHUB_OUTPUT
+2026-08-14T14:46:40.6561830Z [info] [otlp] span-id=bcf0e399e64aadcc written to GITHUB_OUTPUT
+2026-08-14T14:46:40.6562723Z [info] [otlp] parent-span-id=b97a74d017b1b730 written to GITHUB_OUTPUT
+2026-08-14T14:46:40.6564068Z [info] [otlp] GITHUB_AW_OTEL_TRACE_ID written to GITHUB_ENV
+2026-08-14T14:46:40.6564898Z [info] [otlp] GITHUB_AW_OTEL_PARENT_SPAN_ID written to GITHUB_ENV
+2026-08-14T14:46:40.6565776Z [info] [otlp] GITHUB_AW_OTEL_JOB_START_MS written to GITHUB_ENV

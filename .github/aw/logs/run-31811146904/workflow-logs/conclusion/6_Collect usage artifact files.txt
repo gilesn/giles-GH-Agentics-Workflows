@@ -1,0 +1,29 @@
+﻿2026-08-14T14:46:41.6227332Z ##[group]Run bash "${RUNNER_TEMP}/gh-aw/actions/collect_usage_artifact_files.sh"
+2026-08-14T14:46:41.6228515Z [36;1mbash "${RUNNER_TEMP}/gh-aw/actions/collect_usage_artifact_files.sh"[0m
+2026-08-14T14:46:41.6237531Z shell: /usr/bin/bash -e {0}
+2026-08-14T14:46:41.6238122Z env:
+2026-08-14T14:46:41.6238561Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:41.6239185Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:41.6239932Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:41.6240599Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:41.6241193Z ##[endgroup]
+2026-08-14T14:46:41.6324195Z Usage artifact source file status:
+2026-08-14T14:46:41.6325103Z MISSING: /tmp/gh-aw/aw_info.json
+2026-08-14T14:46:41.6325777Z MISSING: /tmp/gh-aw/aw-info.jsonl
+2026-08-14T14:46:41.6326708Z MISSING: /tmp/gh-aw/agent_usage.json
+2026-08-14T14:46:41.6327385Z MISSING: /tmp/gh-aw/agent_usage.jsonl
+2026-08-14T14:46:41.6328099Z MISSING: /tmp/gh-aw/detection_usage.jsonl
+2026-08-14T14:46:41.6328830Z MISSING: /tmp/gh-aw/evals/evals.jsonl
+2026-08-14T14:46:41.6329537Z MISSING: /tmp/gh-aw/github_rate_limits.jsonl
+2026-08-14T14:46:41.6333942Z MISSING: /tmp/gh-aw/safe-output-items.jsonl
+2026-08-14T14:46:41.6336837Z MISSING: /tmp/gh-aw/sandbox/firewall-audit-logs/api-proxy-logs/token-usage.jsonl
+2026-08-14T14:46:41.6337922Z MISSING: /tmp/gh-aw/sandbox/firewall/logs/api-proxy-logs/token-usage.jsonl
+2026-08-14T14:46:41.6338904Z MISSING: /tmp/gh-aw/sandbox/firewall/audit/api-proxy-logs/token-usage.jsonl
+2026-08-14T14:46:41.6340040Z MISSING: /tmp/gh-aw/threat-detection/sandbox/firewall-audit-logs/api-proxy-logs/token-usage.jsonl
+2026-08-14T14:46:41.6341283Z MISSING: /tmp/gh-aw/threat-detection/sandbox/firewall/logs/api-proxy-logs/token-usage.jsonl
+2026-08-14T14:46:41.6342508Z MISSING: /tmp/gh-aw/threat-detection/sandbox/firewall/audit/api-proxy-logs/token-usage.jsonl
+2026-08-14T14:46:41.8739100Z [info] safe-output-items manifest not found at /tmp/gh-aw/safe-output-items.jsonl — safe-outputs-items artifact may not have been downloaded
+2026-08-14T14:46:41.8747981Z [info] /tmp/gh-aw/usage/activity/summary.json
+2026-08-14T14:46:41.8828330Z /tmp/gh-aw/usage/activity/summary.json
+2026-08-14T14:46:41.8829412Z /tmp/gh-aw/usage/agent/token_usage.jsonl
+2026-08-14T14:46:41.8830217Z /tmp/gh-aw/usage/detection/token_usage.jsonl

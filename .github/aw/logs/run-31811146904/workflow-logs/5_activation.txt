@@ -1,0 +1,169 @@
+﻿2026-08-14T14:46:21.0914179Z Current runner version: '2.336.0'
+2026-08-14T14:46:21.0948289Z ##[group]Runner Image Provisioner
+2026-08-14T14:46:21.0952870Z Hosted Compute Agent
+2026-08-14T14:46:21.0953537Z Version: 20260707.563
+2026-08-14T14:46:21.0954238Z Commit: 02667638d2b423fbc733a8e32a88b44996a3ba6e
+2026-08-14T14:46:21.0955339Z Build Date: 2026-07-07T19:33:50Z
+2026-08-14T14:46:21.0956000Z Worker ID: {d844dfc3-eeff-4a3d-a098-0ad0606b1995}
+2026-08-14T14:46:21.0956746Z Azure Region: eastus
+2026-08-14T14:46:21.0957637Z ##[endgroup]
+2026-08-14T14:46:21.0959589Z ##[group]VM Image
+2026-08-14T14:46:21.0960188Z - OS: Linux (x64)
+2026-08-14T14:46:21.0961729Z - Source: Docker
+2026-08-14T14:46:21.0962367Z - Name: ubuntu:24.04
+2026-08-14T14:46:21.0962932Z - Version: 20260728.2.1
+2026-08-14T14:46:21.0963471Z ##[endgroup]
+2026-08-14T14:46:21.0964823Z ##[group]GITHUB_TOKEN Permissions
+2026-08-14T14:46:21.0966956Z Actions: read
+2026-08-14T14:46:21.0967627Z Contents: read
+2026-08-14T14:46:21.0968162Z Issues: write
+2026-08-14T14:46:21.0968904Z Metadata: read
+2026-08-14T14:46:21.0969912Z PullRequests: write
+2026-08-14T14:46:21.0970502Z ##[endgroup]
+2026-08-14T14:46:21.0972693Z Secret source: Actions
+2026-08-14T14:46:21.0973841Z Prepare workflow directory
+2026-08-14T14:46:21.1826874Z Prepare all required actions
+2026-08-14T14:46:21.1899319Z Getting action download info
+2026-08-14T14:46:21.7096212Z Download action repository 'github/gh-aw-actions@6aab9e5b5c91c615506061f09bedd81a23babe3c' (SHA:6aab9e5b5c91c615506061f09bedd81a23babe3c)
+2026-08-14T14:46:22.4797707Z Download action repository 'actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3' (SHA:3a2844b7e9c422d3c10d287c895573f7108da1b3)
+2026-08-14T14:46:22.6026559Z Download action repository 'actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9' (SHA:55cc8345863c7cc4c66a329aec7e433d2d1c52a9)
+2026-08-14T14:46:22.7805464Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-08-14T14:46:22.8380068Z Download action repository 'actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a' (SHA:043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)
+2026-08-14T14:46:23.2375715Z Complete job name: activation
+2026-08-14T14:46:23.3722496Z ##[group]Run github/gh-aw-actions/setup@6aab9e5b5c91c615506061f09bedd81a23babe3c
+2026-08-14T14:46:23.3723756Z with:
+2026-08-14T14:46:23.3724254Z   destination: /home/runner/work/_temp/gh-aw/actions
+2026-08-14T14:46:23.3724861Z   job-name: activation
+2026-08-14T14:46:23.3725330Z   trace-id: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:23.3725879Z   parent-span-id: b97a74d017b1b730
+2026-08-14T14:46:23.3726401Z   safe-output-artifact-client: true
+2026-08-14T14:46:23.3727074Z env:
+2026-08-14T14:46:23.3727477Z   GH_AW_MAX_DAILY_AI_CREDITS: 5000
+2026-08-14T14:46:23.3728005Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:23.3728534Z   GH_AW_SETUP_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:23.3731637Z   GH_AW_CURRENT_WORKFLOW_REF: gilesn/giles-GH-Agentics-Workflows/.github/workflows/grumpy-reviewer.lock.yml@refs/heads/main
+2026-08-14T14:46:23.3735762Z   GH_AW_INFO_VERSION: 1.0.79
+2026-08-14T14:46:23.3736283Z   GH_AW_INFO_AWF_VERSION: v0.27.44
+2026-08-14T14:46:23.3736863Z   GH_AW_INFO_BODY_MODIFIED: false
+2026-08-14T14:46:23.3738701Z   GH_AW_INFO_ENGINE_ID: copilot
+2026-08-14T14:46:23.3739546Z ##[endgroup]
+2026-08-14T14:46:25.5282334Z Successfully copied 462 files to /home/runner/work/_temp/gh-aw/actions
+2026-08-14T14:46:25.7552390Z Successfully copied 26 mcp-scripts files to /home/runner/work/_temp/gh-aw/mcp-scripts
+2026-08-14T14:46:25.8852872Z Successfully copied 85 safe-outputs files to /home/runner/work/_temp/gh-aw/safeoutputs
+2026-08-14T14:46:25.9063654Z [info] [otlp] INPUT_TRACE_ID=81eeb75850d6f8254b6b51e50e09b2da (will reuse activation trace)
+2026-08-14T14:46:25.9067452Z [info] [otlp] INPUT_PARENT_SPAN_ID=b97a74d017b1b730 (will parent setup span)
+2026-08-14T14:46:25.9069914Z [info] [otlp] GH_AW_OTLP_ENDPOINTS not set, skipping setup span
+2026-08-14T14:46:25.9090980Z [info] [otlp] resolved trace-id=81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:25.9093987Z [info] [otlp] trace-id=81eeb75850d6f8254b6b51e50e09b2da written to GITHUB_OUTPUT
+2026-08-14T14:46:25.9096848Z [info] [otlp] span-id=c14d3c8d2913e0ae written to GITHUB_OUTPUT
+2026-08-14T14:46:25.9098680Z [info] [otlp] parent-span-id=b97a74d017b1b730 written to GITHUB_OUTPUT
+2026-08-14T14:46:25.9101061Z [info] [otlp] GITHUB_AW_OTEL_TRACE_ID written to GITHUB_ENV
+2026-08-14T14:46:25.9103330Z [info] [otlp] GITHUB_AW_OTEL_PARENT_SPAN_ID written to GITHUB_ENV
+2026-08-14T14:46:25.9106549Z [info] [otlp] GITHUB_AW_OTEL_JOB_START_MS written to GITHUB_ENV
+2026-08-14T14:46:25.9396006Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:25.9396781Z with:
+2026-08-14T14:46:25.9398473Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/generate_aw_info.cjs');
+await main(core, context);
+
+2026-08-14T14:46:25.9405273Z   github-token: ***
+2026-08-14T14:46:25.9405708Z   debug: false
+2026-08-14T14:46:25.9406142Z   user-agent: actions/github-script
+2026-08-14T14:46:25.9406662Z   result-encoding: json
+2026-08-14T14:46:25.9407100Z   retries: 0
+2026-08-14T14:46:25.9407552Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:25.9408113Z env:
+2026-08-14T14:46:25.9408510Z   GH_AW_MAX_DAILY_AI_CREDITS: 5000
+2026-08-14T14:46:25.9409259Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:25.9409816Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:25.9410516Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: c14d3c8d2913e0ae
+2026-08-14T14:46:25.9411105Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718785911
+2026-08-14T14:46:25.9411640Z   GH_AW_INFO_ENGINE_ID: copilot
+2026-08-14T14:46:25.9412143Z   GH_AW_INFO_ENGINE_NAME: GitHub Copilot CLI
+2026-08-14T14:46:25.9412674Z   GH_AW_INFO_MODEL: auto
+2026-08-14T14:46:25.9413120Z   GH_AW_INFO_VERSION: 1.0.79
+2026-08-14T14:46:25.9413601Z   GH_AW_INFO_AGENT_VERSION: 1.0.79
+2026-08-14T14:46:25.9414097Z   GH_AW_INFO_CLI_VERSION: v0.86.2
+2026-08-14T14:46:25.9414634Z   GH_AW_INFO_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:25.9415214Z   GH_AW_INFO_EXPERIMENTAL: false
+2026-08-14T14:46:25.9415927Z   GH_AW_INFO_SUPPORTS_TOOLS_ALLOWLIST: true
+2026-08-14T14:46:25.9416470Z   GH_AW_INFO_STAGED: false
+2026-08-14T14:46:25.9416945Z   GH_AW_INFO_ALLOWED_DOMAINS: ["defaults"]
+2026-08-14T14:46:25.9417484Z   GH_AW_INFO_FIREWALL_ENABLED: true
+2026-08-14T14:46:25.9417986Z   GH_AW_INFO_AWF_VERSION: v0.27.44
+2026-08-14T14:46:25.9418484Z   GH_AW_INFO_AWMG_VERSION: 
+2026-08-14T14:46:25.9418950Z   GH_AW_INFO_FIREWALL_TYPE: squid
+2026-08-14T14:46:25.9419640Z   GH_AW_INFO_AGENT_RUNTIME: 
+2026-08-14T14:46:25.9420596Z   GH_AW_INFO_FRONTMATTER_SOURCE: githubnext/agentics/workflows/grumpy-reviewer.md@42c2ab5b4e4c9273534c39259b2e0df7f20f07e9
+2026-08-14T14:46:25.9421585Z   GH_AW_INFO_BODY_MODIFIED: false
+2026-08-14T14:46:25.9422074Z   GH_AW_COMPILED_STRICT: true
+2026-08-14T14:46:25.9423280Z   GITHUB_MCP_LOCKDOWN_EXPLICIT: true
+2026-08-14T14:46:25.9423806Z   GH_AW_GITHUB_TOKEN: 
+2026-08-14T14:46:25.9424246Z   GH_AW_GITHUB_MCP_SERVER_TOKEN: 
+2026-08-14T14:46:25.9424721Z ##[endgroup]
+2026-08-14T14:46:26.1168253Z Starting context variable validation...
+2026-08-14T14:46:26.1175385Z ✓ github.event.issue.number is valid: 3
+2026-08-14T14:46:26.1180366Z ✓ github.event.comment.id is valid: 5294646656
+2026-08-14T14:46:26.1183602Z ✓ github.event.repository.id is valid: 1334241848
+2026-08-14T14:46:26.1186621Z ✓ github.event.sender.id is valid: 12232545
+2026-08-14T14:46:26.1189848Z Validated 4 context variables
+2026-08-14T14:46:26.1192631Z ✅ All context variables validated successfully
+2026-08-14T14:46:26.1196900Z Lockdown mode is explicitly enabled, validating requirements...
+2026-08-14T14:46:26.1200368Z GH_AW_GITHUB_TOKEN configured: false
+2026-08-14T14:46:26.1206356Z GH_AW_GITHUB_MCP_SERVER_TOKEN configured: false
+2026-08-14T14:46:26.1210012Z Custom github-token configured: false
+2026-08-14T14:46:26.1291877Z ##[error]Lockdown mode is enabled (lockdown: true) but no custom GitHub token is configured.
+
+Please configure one of the following as a repository secret:
+  - GH_AW_GITHUB_TOKEN (recommended)
+  - GH_AW_GITHUB_MCP_SERVER_TOKEN (alternative)
+  - Custom github-token in your workflow frontmatter
+
+See: https://github.com/github/gh-aw/blob/main/docs/src/content/docs/reference/auth.mdx
+
+To set a token:
+  gh aw secrets set GH_AW_GITHUB_TOKEN --value "YOUR_FINE_GRAINED_PAT"
+2026-08-14T14:46:26.1316004Z Error: Lockdown mode is enabled (lockdown: true) but no custom GitHub token is configured.
+2026-08-14T14:46:26.1316701Z 
+2026-08-14T14:46:26.1317037Z Please configure one of the following as a repository secret:
+2026-08-14T14:46:26.1317729Z   - GH_AW_GITHUB_TOKEN (recommended)
+2026-08-14T14:46:26.1318721Z   - GH_AW_GITHUB_MCP_SERVER_TOKEN (alternative)
+2026-08-14T14:46:26.1319604Z   - Custom github-token in your workflow frontmatter
+2026-08-14T14:46:26.1320010Z 
+2026-08-14T14:46:26.1320483Z See: https://github.com/github/gh-aw/blob/main/docs/src/content/docs/reference/auth.mdx
+2026-08-14T14:46:26.1321096Z 
+2026-08-14T14:46:26.1321272Z To set a token:
+2026-08-14T14:46:26.1321882Z   gh aw secrets set GH_AW_GITHUB_TOKEN --value "YOUR_FINE_GRAINED_PAT"
+2026-08-14T14:46:26.1322885Z     at failWithError (/home/runner/work/_temp/gh-aw/actions/validate_lockdown_requirements.cjs:35:11)
+2026-08-14T14:46:26.1324158Z     at validateLockdownRequirements (/home/runner/work/_temp/gh-aw/actions/validate_lockdown_requirements.cjs:60:7)
+2026-08-14T14:46:26.1325284Z     at main (/home/runner/work/_temp/gh-aw/actions/generate_aw_info.cjs:36:3)
+2026-08-14T14:46:26.1326760Z     at async eval (eval at callAsyncFunction (/home/runner/work/_actions/actions/github-script/3a2844b7e9c422d3c10d287c895573f7108da1b3/dist/index.js:64949:16), <anonymous>:6:1)
+2026-08-14T14:46:26.1328537Z     at async main (/home/runner/work/_actions/actions/github-script/3a2844b7e9c422d3c10d287c895573f7108da1b3/dist/index.js:65100:20)
+2026-08-14T14:46:26.1381439Z ##[error]Unhandled error: Error: Lockdown mode is enabled (lockdown: true) but no custom GitHub token is configured.
+
+Please configure one of the following as a repository secret:
+  - GH_AW_GITHUB_TOKEN (recommended)
+  - GH_AW_GITHUB_MCP_SERVER_TOKEN (alternative)
+  - Custom github-token in your workflow frontmatter
+
+See: https://github.com/github/gh-aw/blob/main/docs/src/content/docs/reference/auth.mdx
+
+To set a token:
+  gh aw secrets set GH_AW_GITHUB_TOKEN --value "YOUR_FINE_GRAINED_PAT"
+2026-08-14T14:46:26.1865473Z Post job cleanup.
+2026-08-14T14:46:26.2295262Z [info] [otlp] GH_AW_OTLP_ENDPOINTS not set, skipping OTLP export (will attempt JSONL mirror)
+2026-08-14T14:46:26.2338537Z Cleaning up /tmp/gh-aw...
+2026-08-14T14:46:26.2470840Z Cleaned up /tmp/gh-aw
+2026-08-14T14:46:26.2611255Z No /tmp/awf-*-chroot-home directories found
+2026-08-14T14:46:26.2721212Z No /tmp/awf-chroot-* directories found
+2026-08-14T14:46:26.2825104Z Evaluate and set job outputs
+2026-08-14T14:46:26.2847388Z Set output 'daily_ai_credits_exceeded'
+2026-08-14T14:46:26.2850197Z Set output 'lockdown_check_failed'
+2026-08-14T14:46:26.2851141Z Set output 'oauth_token_check_failed'
+2026-08-14T14:46:26.2851881Z Set output 'setup-parent-span-id'
+2026-08-14T14:46:26.2852573Z Set output 'setup-span-id'
+2026-08-14T14:46:26.2853249Z Set output 'setup-trace-id'
+2026-08-14T14:46:26.2853879Z Set output 'slash_command'
+2026-08-14T14:46:26.2854506Z Set output 'stale_lock_file_failed'
+2026-08-14T14:46:26.2855556Z Cleaning up orphan processes

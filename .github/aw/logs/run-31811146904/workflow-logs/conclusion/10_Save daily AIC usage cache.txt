@@ -1,0 +1,13 @@
+﻿2026-08-14T14:46:43.7806074Z ##[group]Run actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+2026-08-14T14:46:43.7806938Z with:
+2026-08-14T14:46:43.7807524Z   key: agentic-workflow-usage-grumpyreviewer-31811146904
+2026-08-14T14:46:43.7808302Z   path: /tmp/gh-aw/agentic-workflow-usage-cache.jsonl
+2026-08-14T14:46:43.7809016Z   enableCrossOsArchive: false
+2026-08-14T14:46:43.7809541Z env:
+2026-08-14T14:46:43.7809977Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:43.7810595Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:43.7811354Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:43.7812022Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:43.7812628Z ##[endgroup]
+2026-08-14T14:46:43.9380843Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/giles-GH-Agentics-Workflows/giles-GH-Agentics-Workflows --files-from manifest.txt --use-compress-program zstdmt
+2026-08-14T14:46:44.1685924Z ##[warning]Failed to save: Unable to reserve cache with key agentic-workflow-usage-grumpyreviewer-31811146904. More details: cache write denied: token has no writable scopes

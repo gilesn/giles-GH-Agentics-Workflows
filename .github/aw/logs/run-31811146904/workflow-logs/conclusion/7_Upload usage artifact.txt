@@ -1,0 +1,39 @@
+﻿2026-08-14T14:46:41.8959491Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+2026-08-14T14:46:41.8960364Z with:
+2026-08-14T14:46:41.8960794Z   name: usage
+2026-08-14T14:46:41.8963475Z   path: /tmp/gh-aw/usage/aw_info.json
+/tmp/gh-aw/usage/aw-info.jsonl
+/tmp/gh-aw/usage/agent_usage.json
+/tmp/gh-aw/usage/agent_usage.jsonl
+/tmp/gh-aw/usage/detection_usage.jsonl
+/tmp/gh-aw/usage/evals.jsonl
+/tmp/gh-aw/usage/github_rate_limits.jsonl
+/tmp/gh-aw/usage/agent/token_usage.jsonl
+/tmp/gh-aw/usage/detection/token_usage.jsonl
+/tmp/gh-aw/usage/activity/summary.json
+
+2026-08-14T14:46:41.8979810Z   if-no-files-found: ignore
+2026-08-14T14:46:41.8980532Z   compression-level: 6
+2026-08-14T14:46:41.8981044Z   overwrite: false
+2026-08-14T14:46:41.8981517Z   include-hidden-files: false
+2026-08-14T14:46:41.8982044Z   archive: true
+2026-08-14T14:46:41.8982477Z env:
+2026-08-14T14:46:41.8982896Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:41.8983878Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:41.8984684Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:41.8985338Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:41.8985910Z ##[endgroup]
+2026-08-14T14:46:43.1445633Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-08-14T14:46:43.1449546Z The least common ancestor is /tmp/gh-aw/usage. This will be the root directory of the artifact
+2026-08-14T14:46:43.1450544Z With the provided path, there will be 3 files uploaded
+2026-08-14T14:46:43.1451546Z Artifact name is valid!
+2026-08-14T14:46:43.1452061Z Root directory input is valid!
+2026-08-14T14:46:43.1461987Z Uploading artifact: usage.zip
+2026-08-14T14:46:43.1462948Z Beginning upload of artifact content to blob storage
+2026-08-14T14:46:43.1464793Z Uploaded bytes 489
+2026-08-14T14:46:43.1465367Z Finished uploading artifact content to blob storage!
+2026-08-14T14:46:43.1466425Z SHA256 digest of uploaded artifact is 08a9a87a21974cb59a249f93f896640643bba6ff242bab9f012521e54ebf2c92
+2026-08-14T14:46:43.1467434Z Finalizing artifact upload
+2026-08-14T14:46:43.1469235Z Artifact usage successfully finalized. Artifact ID 9223168145
+2026-08-14T14:46:43.1470320Z Artifact usage has been successfully uploaded! Final size is 489 bytes. Artifact ID is 9223168145
+2026-08-14T14:46:43.1471777Z Artifact download URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904/artifacts/9223168145

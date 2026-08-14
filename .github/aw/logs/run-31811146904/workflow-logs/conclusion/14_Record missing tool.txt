@@ -1,0 +1,25 @@
+﻿2026-08-14T14:46:45.7655171Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:45.7656918Z with:
+2026-08-14T14:46:45.7667670Z   github-token: ***
+2026-08-14T14:46:45.7674327Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/missing_tool.cjs');
+await main();
+
+2026-08-14T14:46:45.7678525Z   debug: false
+2026-08-14T14:46:45.7679498Z   user-agent: actions/github-script
+2026-08-14T14:46:45.7680691Z   result-encoding: json
+2026-08-14T14:46:45.7681689Z   retries: 0
+2026-08-14T14:46:45.7684103Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:45.7690036Z env:
+2026-08-14T14:46:45.7690969Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:45.7692303Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:45.7694120Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:45.7695561Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:45.7696902Z   GH_AW_AGENT_OUTPUT: 
+2026-08-14T14:46:45.7697962Z   GH_AW_MISSING_TOOL_CREATE_ISSUE: true
+2026-08-14T14:46:45.7700445Z   GH_AW_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:45.7702877Z   GH_AW_WORKFLOW_SOURCE: githubnext/agentics/workflows/grumpy-reviewer.md@42c2ab5b4e4c9273534c39259b2e0df7f20f07e9
+2026-08-14T14:46:45.7706792Z   GH_AW_WORKFLOW_SOURCE_URL: https://github.com/githubnext/agentics/blob/42c2ab5b4e4c9273534c39259b2e0df7f20f07e9/workflows/grumpy-reviewer.md
+2026-08-14T14:46:45.7709453Z ##[endgroup]
+2026-08-14T14:46:45.9246318Z Max count: unlimited

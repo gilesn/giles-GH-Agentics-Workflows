@@ -1,0 +1,31 @@
+﻿2026-08-14T14:46:48.3324284Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:48.3325869Z with:
+2026-08-14T14:46:48.3333910Z   github-token: ***
+2026-08-14T14:46:48.3337311Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/report_failed_jobs.cjs');
+await main();
+
+2026-08-14T14:46:48.3340890Z   debug: false
+2026-08-14T14:46:48.3341828Z   user-agent: actions/github-script
+2026-08-14T14:46:48.3342950Z   result-encoding: json
+2026-08-14T14:46:48.3344127Z   retries: 0
+2026-08-14T14:46:48.3345108Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:48.3346319Z env:
+2026-08-14T14:46:48.3347153Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:48.3348340Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:48.3349749Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:48.3351211Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:48.3352371Z   GH_AW_AGENT_OUTPUT: 
+2026-08-14T14:46:48.3353593Z   GH_AW_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:48.3355665Z   GH_AW_WORKFLOW_SOURCE: githubnext/agentics/workflows/grumpy-reviewer.md@42c2ab5b4e4c9273534c39259b2e0df7f20f07e9
+2026-08-14T14:46:48.3358867Z   GH_AW_WORKFLOW_SOURCE_URL: https://github.com/githubnext/agentics/blob/42c2ab5b4e4c9273534c39259b2e0df7f20f07e9/workflows/grumpy-reviewer.md
+2026-08-14T14:46:48.3361801Z   GH_AW_RUN_URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904
+2026-08-14T14:46:48.3363949Z   GH_AW_REPORT_FAILED_JOBS: true
+2026-08-14T14:46:48.3364994Z ##[endgroup]
+2026-08-14T14:46:48.4647971Z Checking GitHub API rate limit before querying jobs
+2026-08-14T14:46:48.7935418Z Querying jobs for workflow run 31811146904
+2026-08-14T14:46:49.0331253Z Page 1: retrieved 7 jobs
+2026-08-14T14:46:49.0339346Z Skipping builtin job: activation (already reported by agent failure handler)
+2026-08-14T14:46:49.0342032Z Checking GitHub API rate limit after querying jobs
+2026-08-14T14:46:49.1789997Z No failed non-builtin jobs found, skipping issue creation

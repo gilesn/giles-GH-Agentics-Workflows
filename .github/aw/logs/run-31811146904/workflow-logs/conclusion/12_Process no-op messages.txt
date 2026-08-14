@@ -1,0 +1,33 @@
+﻿2026-08-14T14:46:45.3264784Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:45.3265736Z with:
+2026-08-14T14:46:45.3270926Z   github-token: ***
+2026-08-14T14:46:45.3274189Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/handle_noop_message.cjs');
+await main();
+
+2026-08-14T14:46:45.3278326Z   debug: false
+2026-08-14T14:46:45.3278883Z   user-agent: actions/github-script
+2026-08-14T14:46:45.3279490Z   result-encoding: json
+2026-08-14T14:46:45.3294281Z   retries: 0
+2026-08-14T14:46:45.3294966Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:45.3295626Z env:
+2026-08-14T14:46:45.3296069Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:45.3296712Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:45.3299416Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:45.3300215Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:45.3300828Z   GH_AW_AGENT_OUTPUT: 
+2026-08-14T14:46:45.3301325Z   GH_AW_NOOP_MAX: 1
+2026-08-14T14:46:45.3301859Z   GH_AW_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:45.3305221Z   GH_AW_WORKFLOW_SOURCE: githubnext/agentics/workflows/grumpy-reviewer.md@42c2ab5b4e4c9273534c39259b2e0df7f20f07e9
+2026-08-14T14:46:45.3306985Z   GH_AW_WORKFLOW_SOURCE_URL: https://github.com/githubnext/agentics/blob/42c2ab5b4e4c9273534c39259b2e0df7f20f07e9/workflows/grumpy-reviewer.md
+2026-08-14T14:46:45.3309229Z   GH_AW_RUN_URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904
+2026-08-14T14:46:45.3310191Z   GH_AW_AGENT_CONCLUSION: skipped
+2026-08-14T14:46:45.3310792Z   GH_AW_NOOP_REPORT_AS_ISSUE: false
+2026-08-14T14:46:45.3311349Z   GH_AW_AIC: 
+2026-08-14T14:46:45.3311822Z   GH_AW_THREAT_DETECTION_AIC: 
+2026-08-14T14:46:45.3312952Z   GH_AW_AMBIENT_CONTEXT: 
+2026-08-14T14:46:45.3313775Z   GH_AW_WORKFLOW_ID: grumpy-reviewer
+2026-08-14T14:46:45.3314383Z ##[endgroup]
+2026-08-14T14:46:45.5460277Z No GH_AW_AGENT_OUTPUT environment variable found
+2026-08-14T14:46:45.5465668Z Could not load agent output, skipping

@@ -1,0 +1,427 @@
+{
+  "cli_version": "v0.86.2",
+  "run_id": 31811146904,
+  "processed_at": "2026-08-14T14:54:14.248781888Z",
+  "run": {
+    "databaseId": 31811146904,
+    "number": 1,
+    "url": "https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904",
+    "status": "completed",
+    "conclusion": "failure",
+    "workflowName": "Grumpy Code Reviewer 🔥",
+    "workflowPath": ".github/workflows/grumpy-reviewer.lock.yml",
+    "createdAt": "2026-08-14T14:46:04Z",
+    "startedAt": "2026-08-14T14:46:04Z",
+    "updatedAt": "2026-08-14T14:46:52Z",
+    "event": "issue_comment",
+    "headBranch": "main",
+    "headSha": "7ca4d2167adc4c13fa3fe8a2cd8dee190f34ec1b",
+    "displayTitle": "Grumpy Code Reviewer 🔥",
+    "Duration": 48000000000,
+    "ActionMinutes": 0,
+    "TokenUsage": 0,
+    "Turns": 0,
+    "TurnsAvailable": false,
+    "ErrorCount": 1,
+    "WarningCount": 0,
+    "MissingToolCount": 0,
+    "MissingDataCount": 0,
+    "NoopCount": 0,
+    "EffectiveTokens": 0,
+    "AvgTimeBetweenTurns": 0,
+    "LogsPath": "/workspaces/giles-GH-Agentics-Workflows/.github/aw/logs/run-31811146904"
+  },
+  "metrics": {
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ToolCalls": null,
+    "ToolSequences": null,
+    "AvgTimeBetweenTurns": 0,
+    "MaxTimeBetweenTurns": 0,
+    "MedianTimeBetweenTurns": 0,
+    "StdDevTimeBetweenTurns": 0
+  },
+  "task_domain": {
+    "name": "code_fix",
+    "label": "Code Fix",
+    "reason": "The workflow appears oriented toward code changes or pull request review."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "access_analysis": null,
+  "firewall_analysis": null,
+  "redacted_domains_analysis": null,
+  "missing_tools": null,
+  "missing_data": null,
+  "noops": null,
+  "mcp_failures": null,
+  "artifacts_list": [
+    ".downloaded-artifacts/all",
+    "agentic-workflow-usage-cache.jsonl",
+    "usage/activity/summary.json",
+    "usage/agent/token_usage.jsonl",
+    "usage/detection/token_usage.jsonl",
+    "workflow-logs/0_conclusion.txt",
+    "workflow-logs/5_activation.txt",
+    "workflow-logs/6_pre_activation.txt",
+    "workflow-logs/activation/1_Set up job.txt",
+    "workflow-logs/activation/2_Setup Scripts.txt",
+    "workflow-logs/activation/3_Generate agentic run info.txt",
+    "workflow-logs/activation/46_Post Setup Scripts.txt",
+    "workflow-logs/activation/47_Complete job.txt",
+    "workflow-logs/activation/system.txt",
+    "workflow-logs/conclusion/10_Save daily AIC usage cache.txt",
+    "workflow-logs/conclusion/11_Upload daily AIC usage cache artifact.txt",
+    "workflow-logs/conclusion/12_Process no-op messages.txt",
+    "workflow-logs/conclusion/13_Log detection run.txt",
+    "workflow-logs/conclusion/14_Record missing tool.txt",
+    "workflow-logs/conclusion/15_Record incomplete.txt",
+    "workflow-logs/conclusion/16_Handle agent failure.txt",
+    "workflow-logs/conclusion/17_Report failed jobs.txt",
+    "workflow-logs/conclusion/18_Update reaction comment with completion status.txt",
+    "workflow-logs/conclusion/1_Set up job.txt",
+    "workflow-logs/conclusion/2_Setup Scripts.txt",
+    "workflow-logs/conclusion/36_Post Setup Scripts.txt",
+    "workflow-logs/conclusion/37_Complete job.txt",
+    "workflow-logs/conclusion/3_Download agent output artifact.txt",
+    "workflow-logs/conclusion/5_Download Safe Outputs Items Manifest.txt",
+    "workflow-logs/conclusion/6_Collect usage artifact files.txt",
+    "workflow-logs/conclusion/7_Upload usage artifact.txt",
+    "workflow-logs/conclusion/8_Restore daily AIC usage cache.txt",
+    "workflow-logs/conclusion/9_Write daily AIC usage cache entry.txt",
+    "workflow-logs/conclusion/system.txt",
+    "workflow-logs/pre_activation/1_Set up job.txt",
+    "workflow-logs/pre_activation/2_Setup Scripts.txt",
+    "workflow-logs/pre_activation/3_Check command position.txt",
+    "workflow-logs/pre_activation/4_Check team membership for command workflow.txt",
+    "workflow-logs/pre_activation/8_Post Setup Scripts.txt",
+    "workflow-logs/pre_activation/9_Complete job.txt",
+    "workflow-logs/pre_activation/system.txt"
+  ],
+  "job_details": [
+    {
+      "name": "pre_activation",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-08-14T14:46:07Z",
+      "completed_at": "2026-08-14T14:46:14Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check command position",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check team membership for command workflow",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "Duration": 7000000000
+    },
+    {
+      "name": "activation",
+      "status": "completed",
+      "conclusion": "failure",
+      "started_at": "2026-08-14T14:46:19Z",
+      "completed_at": "2026-08-14T14:46:27Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Generate agentic run info",
+          "status": "completed",
+          "conclusion": "failure"
+        },
+        {
+          "name": "Restore daily AIC usage cache",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Restore daily AIC usage cache (artifact fallback)",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Check daily workflow token guardrail",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Add eyes reaction for immediate feedback",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Validate COPILOT_GITHUB_TOKEN secret",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Check for OAuth tokens",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Checkout .github and .agents folders",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Save agent config folders for base branch restoration",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Check workflow lock file",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Check compile-agentic version",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Compute current body text",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Add comment with workflow run link",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Log runtime features",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Create prompt with built-in context",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Interpolate variables and render templates",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Substitute placeholders",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Validate prompt placeholders",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Print prompt",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Stage prompt files for artifact upload",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Upload activation artifact",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "Duration": 8000000000
+    },
+    {
+      "name": "agent",
+      "status": "completed",
+      "conclusion": "skipped",
+      "started_at": "2026-08-14T14:46:28Z",
+      "completed_at": "2026-08-14T14:46:28Z",
+      "Duration": 0
+    },
+    {
+      "name": "conclusion",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-08-14T14:46:33Z",
+      "completed_at": "2026-08-14T14:46:51Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Download agent output artifact",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup agent output environment variable",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Download Safe Outputs Items Manifest",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Collect usage artifact files",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload usage artifact",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Restore daily AIC usage cache",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Write daily AIC usage cache entry",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Save daily AIC usage cache",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload daily AIC usage cache artifact",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Process no-op messages",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Log detection run",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Record missing tool",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Record incomplete",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Handle agent failure",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Report failed jobs",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Update reaction comment with completion status",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "Duration": 18000000000
+    },
+    {
+      "name": "detection",
+      "status": "completed",
+      "conclusion": "skipped",
+      "started_at": "2026-08-14T14:46:28Z",
+      "completed_at": "2026-08-14T14:46:28Z",
+      "Duration": 0
+    },
+    {
+      "name": "update_cache_memory",
+      "status": "completed",
+      "conclusion": "skipped",
+      "started_at": "2026-08-14T14:46:28Z",
+      "completed_at": "2026-08-14T14:46:28Z",
+      "Duration": 0
+    },
+    {
+      "name": "safe_outputs",
+      "status": "completed",
+      "conclusion": "skipped",
+      "started_at": "2026-08-14T14:46:28Z",
+      "completed_at": "2026-08-14T14:46:28Z",
+      "Duration": 0
+    }
+  ]
+}

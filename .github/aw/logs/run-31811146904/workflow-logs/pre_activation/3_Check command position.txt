@@ -1,0 +1,23 @@
+﻿2026-08-14T14:46:12.1232826Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:12.1233601Z with:
+2026-08-14T14:46:12.1235209Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/check_command_position.cjs');
+await main();
+
+2026-08-14T14:46:12.1240407Z   github-token: ***
+2026-08-14T14:46:12.1241140Z   debug: false
+2026-08-14T14:46:12.1241581Z   user-agent: actions/github-script
+2026-08-14T14:46:12.1242110Z   result-encoding: json
+2026-08-14T14:46:12.1242561Z   retries: 0
+2026-08-14T14:46:12.1243023Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:12.1243584Z env:
+2026-08-14T14:46:12.1243982Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:12.1244542Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:12.1245210Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: b97a74d017b1b730
+2026-08-14T14:46:12.1245841Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718772099
+2026-08-14T14:46:12.1246402Z   GH_AW_COMMANDS: ["grumpy"]
+2026-08-14T14:46:12.1246869Z ##[endgroup]
+2026-08-14T14:46:12.2548412Z Checking command position. First word in text: /grumpy
+2026-08-14T14:46:12.2614846Z Looking for commands: /grumpy
+2026-08-14T14:46:12.2616273Z ✓ Command '/grumpy' matched at the start of the text

@@ -1,0 +1,24 @@
+﻿2026-08-14T14:46:12.2721184Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:12.2722009Z with:
+2026-08-14T14:46:12.2725716Z   github-token: ***
+2026-08-14T14:46:12.2727587Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/check_membership.cjs');
+await main();
+
+2026-08-14T14:46:12.2729287Z   debug: false
+2026-08-14T14:46:12.2729727Z   user-agent: actions/github-script
+2026-08-14T14:46:12.2730253Z   result-encoding: json
+2026-08-14T14:46:12.2730932Z   retries: 0
+2026-08-14T14:46:12.2731395Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:12.2731955Z env:
+2026-08-14T14:46:12.2732351Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:12.2732921Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:12.2733593Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: b97a74d017b1b730
+2026-08-14T14:46:12.2734191Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718772099
+2026-08-14T14:46:12.2734831Z   GH_AW_REQUIRED_ROLES: admin,maintainer,write
+2026-08-14T14:46:12.2735390Z ##[endgroup]
+2026-08-14T14:46:12.3862435Z Checking if user 'gilesn' has required permissions for gilesn/giles-GH-Agentics-Workflows
+2026-08-14T14:46:12.3868168Z Required permissions: admin, maintainer, write
+2026-08-14T14:46:12.6621897Z Repository permission level: admin
+2026-08-14T14:46:12.6650952Z ✅ User has admin access to repository

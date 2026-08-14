@@ -1,0 +1,37 @@
+﻿2026-08-14T14:46:49.1990824Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+2026-08-14T14:46:49.1992365Z with:
+2026-08-14T14:46:49.2000538Z   github-token: ***
+2026-08-14T14:46:49.2004138Z   script: const { setupGlobals } = require('/home/runner/work/_temp/gh-aw/actions/setup_globals.cjs');
+setupGlobals(core, github, context, exec, io, getOctokit);
+const { main } = require('/home/runner/work/_temp/gh-aw/actions/notify_comment_error.cjs');
+await main();
+
+2026-08-14T14:46:49.2007755Z   debug: false
+2026-08-14T14:46:49.2008676Z   user-agent: actions/github-script
+2026-08-14T14:46:49.2011156Z   result-encoding: json
+2026-08-14T14:46:49.2012138Z   retries: 0
+2026-08-14T14:46:49.2013310Z   retry-exempt-status-codes: 400,401,403,404,422
+2026-08-14T14:46:49.2014605Z env:
+2026-08-14T14:46:49.2015454Z   GH_AW_RUNTIME_FEATURES: 
+2026-08-14T14:46:49.2016645Z   GITHUB_AW_OTEL_TRACE_ID: 81eeb75850d6f8254b6b51e50e09b2da
+2026-08-14T14:46:49.2018040Z   GITHUB_AW_OTEL_PARENT_SPAN_ID: bcf0e399e64aadcc
+2026-08-14T14:46:49.2019389Z   GITHUB_AW_OTEL_JOB_START_MS: 1786718800649
+2026-08-14T14:46:49.2020536Z   GH_AW_AGENT_OUTPUT: 
+2026-08-14T14:46:49.2021469Z   GH_AW_COMMENT_ID: 
+2026-08-14T14:46:49.2022398Z   GH_AW_COMMENT_REPO: 
+2026-08-14T14:46:49.2024088Z   GH_AW_RUN_URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904
+2026-08-14T14:46:49.2025896Z   GH_AW_WORKFLOW_NAME: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:49.2027128Z   GH_AW_AGENT_CONCLUSION: skipped
+2026-08-14T14:46:49.2028217Z   GH_AW_SAFE_OUTPUTS_RESULT: skipped
+2026-08-14T14:46:49.2029317Z   GH_AW_DETECTION_CONCLUSION: 
+2026-08-14T14:46:49.2030361Z   GH_AW_DETECTION_REASON: 
+2026-08-14T14:46:49.2035725Z   GH_AW_SAFE_OUTPUT_MESSAGES: {"footer":"\u003e 😤 *Reluctantly reviewed by [{workflow_name}]({run_url})*","runStarted":"😤 *sigh* [{workflow_name}]({run_url}) is begrudgingly looking at this {event_type}... This better be worth my time.","runSuccess":"😤 Fine. [{workflow_name}]({run_url}) finished the review. It wasn't completely terrible. I guess. 🙄","runFailure":"😤 Great. [{workflow_name}]({run_url}) {status}. As if my day couldn't get any worse..."}
+2026-08-14T14:46:49.2041108Z ##[endgroup]
+2026-08-14T14:46:49.3349259Z Comment ID: 
+2026-08-14T14:46:49.3355475Z Comment Repo: 
+2026-08-14T14:46:49.3359341Z Run URL: https://github.com/gilesn/giles-GH-Agentics-Workflows/actions/runs/31811146904
+2026-08-14T14:46:49.3363831Z Workflow Name: Grumpy Code Reviewer 🔥
+2026-08-14T14:46:49.3367349Z Agent Conclusion: skipped
+2026-08-14T14:46:49.3370899Z Safe Outputs Result: skipped
+2026-08-14T14:46:49.3375843Z No GH_AW_AGENT_OUTPUT environment variable found
+2026-08-14T14:46:49.3378891Z No comment ID found and no noop messages to process, skipping comment update
