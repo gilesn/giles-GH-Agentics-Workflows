@@ -9,6 +9,7 @@ on:
 permissions:
   contents: read
   pull-requests: read
+  copilot-requests: write
 
 tools:
   cache-memory: true
